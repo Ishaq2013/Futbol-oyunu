@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma yığma oyunu</title>
+    <link rel="icon" href="favicon.png">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #74ebe5 0%, #899fd4 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+iframe {
+    width: 800px;
+    height: 700px;
+    display: block;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 0px 40px rgb(0, 0, 0);
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+}
+
+@media (max-width: 520px) {
+    iframe {
+        width: 100%;
+        height: 320px;
+    }
+}
+    </style>
+</head>
+<body>
+    <iframe src="https://scratch.mit.edu/projects/1196581342/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</body>
+</html>
